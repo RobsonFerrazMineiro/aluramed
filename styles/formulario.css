@@ -1,0 +1,102 @@
+.formulario {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .formulario {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .formulario {
+    background: var(--branco);
+    padding: 12px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid var(--cor-primaria);
+    border-radius: 8px;
+  }
+
+  .form__titulo {
+    padding: 12px 0;
+    font-size: 1.5rem;
+  }
+
+  fieldset {
+    border: 0;
+  }
+
+  input,
+  select,
+  textarea {
+    border-radius: 8px;
+  }
+
+  .campo__data-hora {
+    display: inline-block;
+  }
+
+  .campo__data-hora #data {
+    margin-right: 15px;
+  }
+
+  .campo {
+    margin-bottom: 1em;
+  }
+
+  .campo label {
+    margin-bottom: 0.2em;
+  }
+
+  .campo label strong {
+    padding: 0 1em 0 0;
+  }
+
+  .campo input[type="text"],
+  .campo input[type="date"],
+  .campo input[type="time"],
+  .campo select,
+  .campo textarea {
+    padding: 0.5em;
+    border: 1px solid var(--cinza);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  }
+
+  .campo select option {
+    padding: 1em;
+  }
+
+  .campo input:focus,
+  .campo select:focus,
+  .campo textarea:focus {
+    background: var(--cinza);
+  }
+
+  .campo__observacoes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .campo__observacoes label {
+    margin-bottom: 0.5em;
+  }
+
+  .campo button {
+    min-width: 140px;
+    width: auto;
+    height: 48px;
+
+    border-radius: 8px;
+
+    padding: 13px 16px;
+    margin-right: 16px;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+}

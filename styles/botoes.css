@@ -1,0 +1,30 @@
+.btn-primario {
+  border: none;
+  background: var(--cor-primaria);
+  color: var(--branco);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+.btn-secundario {
+  border: none;
+  background: var(--cor-secundaria);
+  color: var(--branco);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btn-terciario {
+  background: var(--branco);
+  border: 1px solid var(--cinza);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btn-quartenario {
+  background: var(--cor-primaria);
+  border: none;
+  color: var(--branco);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btn-quartenario:hover {
+  background: var(--branco);
+  color: var(--cor-primaria);
+}

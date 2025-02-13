@@ -1,0 +1,41 @@
+section.home {
+  display: flex;
+  align-items: center;
+  height: 110px;
+}
+
+.home > img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-right: 16px;
+}
+
+.home .home__info strong {
+  font-size: 1.4rem;
+}
+
+.home .home__info p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--texto-claro);
+}
+
+@media screen and (min-width: 768px) {
+  section.home {
+    height: 160px;
+  }
+
+  .home > img {
+    width: 96px;
+    height: 96px;
+  }
+
+  .home .home__info strong {
+    font-size: 2rem;
+  }
+
+  .home .home__info p {
+    font-size: 1.13rem;
+  }
+}
